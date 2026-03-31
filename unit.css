@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #3bd88f;
+}
+
+h1 {
+  color: rgb(240, 240, 240);
+  font-size: 20vw;
+  text-align: center;
+}
+
+.box {
+  height: 600vh;
+  width: 400vw;
+  background: #dcabab;
+  display: flex;
+  align-items: center;
+}
+.box2 {
+  height: 200px;
+  width: 400px;
+  background: #000;
+}
+
+.box2 > h3 {
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
